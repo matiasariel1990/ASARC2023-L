@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*GENERAL*/
+html{
+    font-family: 'Rubik', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    font-size: 62.5%;
+    display: flex;
+    flex-direction: column;
+    font-size: 8px;
+    background-color: #d3c7b9;
+}
+
+
+.container{
+    max-width: 150rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+
+.grid{
+    display: grid;
+    gap: 9rem;
+}
+
+
+.grid--2-cols{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.borders{
+    border-radius: 1rem;
+}
+
+.o-hidem{
+    overflow: hidden;
+}
+
+/*HEADER*/
+.header{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6c4414;
+    margin-bottom: 10rem;
+}
+
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 500;
+    gap:2rem
+}
+
+.nav-item-content{
+    justify-self: stretch;
+}
+
+.main-nav-link{
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color:black;
+    align-self: stretch;
+}
+
+
+
+
+.nav-cta, .main-nav-link:hover{
+    text-decoration: none;
+    color:black;
+    background-color: #ECCD4B;
+}
+
+.nav-cta:hover{
+    color:black;
+    background-color: #c9ae42;
+}
+
+.logo{
+    width: 6rem;
+    height: 6rem;
+}
+
+
+/*INFO_GAMES*/
+
+.info-games{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    max-width: 35rem;
+    background-color: #d3c7b9;
+    overflow: hidden;
+    box-shadow: 6px 10px 31px -7px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 6px 10px 31px -7px rgba(0,0,0,0.67);
+    -moz-box-shadow: 6px 10px 31px -7px rgba(0,0,0,0.67);
+    transition: 0.2s;
+}
+
+.game-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.info-games:hover{
+    transform: translate(0, -1rem);
+}
+
+.game-equipo{
+    width: 5rem;
+}
+
+.info-game-title{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.info-game-division{
+    background-color: #6c4414;
+    padding: 1rem;
+}
+
+.games-container{
+    margin-bottom: 6rem;
+    position: relative;
+}
+
+.score{
+    font-size: 2.8rem;
+}
+
+.dots {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 32px);
+    display: flex;
+    gap: 1rem;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #d3c7b9;
+    border: 2px solid #6c4414;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot--fill{
+    background-color: #6c4414;
+}
+
+
+/*HERO*/
+
+
+
+.hero-img-content{
+    grid-column: 2;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%),
+    url('../img/hero/scrum.jpg');
+    max-width: 380rem;
+    max-height: 380rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.6s;
+}
+
+.hero-img{
+    max-width: 200rem;
+    max-height: 200rem;
+}
+
+
+/*TESTIMONIO*/
+
+#testimonios {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.testimonio {
+	flex: 1;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	background-color: #fff;
+	max-width: 500px;
+    text-align: center;
+}
+
+.testimonio img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+.testimonio p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+	color: #666;
+}
+
+.nombre-usuario {
+	font-weight: bold;
+	color: #fff;
+}
+
+.presentation-intro{
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 3.5rem;
+}
+
+
+.presentation{
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 3.5rem;
+}
+
+.entrenamiento-info{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.hero-inv-info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+    
+    text-align: center;
+}
+
+.btn-join{
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color:black;
+    background-color: #c9ae42;
+    cursor: pointer;
+    box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.37);
+    transition: 0.3s;
+}
+
+.btn-join:hover{
+    background-color: #ECCD4B;
+}
+
+.hero-inv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-hero{
+    height: 75vh;
+    display: flex;
+    margin-bottom: 15rem;
+}
+
+
+
+
+.animacion {
+    animation-name: cambioImagen;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+  }
+  
+  @keyframes cambioImagen {
+    0% {
+      transform: translateX(0);
+      opacity: 0;
+    }
+    50% {
+      transform: translateX(-10px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
