@@ -323,3 +323,74 @@ html{
       opacity: 1;
     }
   }
+
+  footer{
+    background-color: #fff;
+  }
+
+  .footer{
+    padding: 4rem 0;
+    color:#444;
+  }
+
+
+
+  .footer-list{
+    display: flex;
+    flex-direction: column;
+    gap:2rem
+  }
+
+  .footer-list-item{
+    font-size: 2.3rem;
+    font-weight: 300;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 1.4rem
+  }
+
+  .footer-title{
+    font-size: 3rem;
+    text-transform: uppercase;
+    border-bottom: #333;
+  }
+
+  .footer-icon{
+    font-size: 4rem;
+    cursor: pointer;
+  }
+
+  .footer-logo-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .footer-logo{
+    filter: grayscale(100%);
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .list-spons{
+    margin: auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+  }
+
+  .spon{
+    filter: grayscale(80%);
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .spont-title{
+    text-align: center;
+  }
+
+  
