@@ -471,34 +471,49 @@ html{
   .tarjeta-jugador{
     display: flex;
     font-size: 2rem;
-  }
-
-  .foto-jugador{
     cursor: pointer;
-    border-radius: 50%;
-    height: 10rem;
-    transform: scale(1.25);
-    overflow: hidden;
     transition: 0.4s;
   }
 
-  .foto-jugador:hover{
+  .foto-jugador{
+    border-radius: 50%;
+    height: 10rem;
+    transform: translate(-1.5rem, -1.5rem);
     transform: scale(1.5);
+    overflow: hidden;
+  }
+
+  .tarjeta-jugador:hover{
+    transform: scale(1.1);
   }
 
   .jugador-info{
     font-size: 2.5rem;
     margin: auto;
-    margin-left: 6rem;
+    margin-left: 3.5rem;
+    padding: 1.5rem;
   }
 
   .jugador-nombre{
-    font-size: 2.8rem;
-    font-weight: 500;
+    font-size: 3rem;
+    font-weight: 700;
     margin-bottom: 1rem;
   }
+
+  .jugador-apodo, .jugador-edad{
+    margin-left: 1rem;
+  }
+
 
   .tarjeta-jugador{
     border-radius: 40rem;
     background-color: #e9e3dc;
+  }
+
+  .title-equipo{
+    font-size: 5rem;
+    margin-bottom: 6rem;
+  }
+  .jugador-apodo{
+    margin-bottom: 0.5rem;
   }
