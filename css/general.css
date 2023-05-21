@@ -466,3 +466,39 @@ html{
     justify-content: center;
     border-radius: 1rem;
   }
+
+
+  .tarjeta-jugador{
+    display: flex;
+    font-size: 2rem;
+  }
+
+  .foto-jugador{
+    cursor: pointer;
+    border-radius: 50%;
+    height: 10rem;
+    transform: scale(1.25);
+    overflow: hidden;
+    transition: 0.4s;
+  }
+
+  .foto-jugador:hover{
+    transform: scale(1.5);
+  }
+
+  .jugador-info{
+    font-size: 2.5rem;
+    margin: auto;
+    margin-left: 6rem;
+  }
+
+  .jugador-nombre{
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .tarjeta-jugador{
+    border-radius: 40rem;
+    background-color: #e9e3dc;
+  }
