@@ -13,7 +13,7 @@ html{
     display: flex;
     flex-direction: column;
     font-size: 8px;
-    background-color: #d3c7b9;
+    background-color: #fbf9f8;
 }
 
 
@@ -276,7 +276,7 @@ html{
     border-radius: 0.5rem;
     text-decoration: none;
     color:black;
-    background-color: #c9ae42;
+    background-color: #ECCD4B;
     cursor: pointer;
     box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.37);
     -webkit-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.37);
@@ -400,3 +400,69 @@ html{
     display: none;
   }
   
+  .join-us-container{
+    background-color: #e9e3dc;
+    padding: 4rem;
+    font-size: 2.5rem;
+  }
+
+  .join-label{
+    margin-bottom: 0.8rem;
+  }
+
+  .info-join{
+    margin-bottom: 6rem;
+    line-height: 1.3;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    color:#333
+  }
+
+  .join-txt{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+  }
+
+  .join, .form-join{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-join{
+    padding: auto;
+    margin:  auto 4rem;
+  }
+
+  .enviar-btn{
+    text-align: center;
+    margin: auto;
+    margin-top: 2.5rem;
+  }
+
+  .join-section{
+    margin-bottom: 15rem;
+  }
+
+  .sub-section-title{
+    font-size: 4.3rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .ubicacion-info{
+    margin-bottom: 2rem;
+    line-height: 1.3;
+  }
+
+  .mapa{
+    width: 100%;
+    height: 40rem;
+    justify-content: center;
+    border-radius: 1rem;
+  }
